@@ -9,7 +9,7 @@
 
   <link rel="stylesheet" href="style.css">
 </head>
-
+<script src="script.js"></script>
 <body>
 
   <header>
@@ -35,7 +35,47 @@
     </section>
 
   </main>
+ <section class="trip-form">
 
+<h2>🌷 Plan Your Next Trip 🌷</h2>
+
+<form id="tripForm">
+
+<input
+type="text"
+id="title"
+placeholder="Trip Title">
+
+<input
+type="text"
+id="destination"
+placeholder="Destination">
+
+<input
+type="date"
+id="date">
+
+<textarea
+id="notes"
+placeholder="Write your memories..."></textarea>
+
+<button type="submit">
+💕 Add Trip
+</button>
+
+</form>
+
+</section>
+
+<section>
+
+<h2>My Trips ✨</h2>
+
+<div id="tripList">
+
+</div>
+
+</section>
   <footer>
     <p>© 2026 Wanderlog</p>
   </footer>

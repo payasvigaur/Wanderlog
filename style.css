@@ -39,3 +39,42 @@ footer {
   padding: 20px;
   background-color: rgb(160, 67, 134);
 }
+.trip-form{
+    max-width:600px;
+    margin:40px auto;
+    padding:30px;
+    background:white;
+    border-radius:20px;
+    box-shadow:0 8px 20px rgba(255,105,180,0.2);
+}
+
+.trip-form h2{
+    text-align:center;
+}
+
+input,
+textarea{
+    width:100%;
+    padding:12px;
+    margin-top:15px;
+    border-radius:12px;
+    border:1px solid pink;
+    font-size:16px;
+}
+
+textarea{
+    height:120px;
+}
+
+#tripList{
+    max-width:700px;
+    margin:40px auto;
+}
+
+.trip-card{
+    background:white;
+    padding:20px;
+    margin-bottom:20px;
+    border-radius:20px;
+    box-shadow:0 5px 15px rgba(255,105,180,0.2);
+}
